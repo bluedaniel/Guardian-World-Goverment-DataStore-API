@@ -1,6 +1,17 @@
-This PHP class is an 'all-in-one' function that will replicate the dataset search that appears at:
+ABOUT
+------
 
-http://www.guardian.co.uk/world-government-data
+This PHP class is an 'all-in-one' function that will replicate the dataset search that appears at: http://www.guardian.co.uk/world-government-data
+
+DEPENDENCIES
+------------
+
+~ Function json_decode - (Included in PHP v5.2 onwards, look at the Zend_JSON framework if your using an older version of PHP - http://framework.zend.com/manual/en/zend.json.html)
+
+~ CSS: YUI Grids are used along with CSS that is embedded in the index.php file, you of course can use your own CSS styling and edit the function to suit your HTML needs
+
+USAGE
+-----
 
 All you need to do to invoke it is the following php lines:
 
