@@ -20,5 +20,7 @@ include('includes/worlddatastore.class.php')l
 
 $guardianapi = new worldDataStore;
 
-echo $guardianapi->guardian_world_data_store('/jsontest.php', $_GET['q'], $_GET['facet_country'], $_GET['facet_department'], $_GET['facet_year'], $_GET['facet_format'], $_GET['page']);
+// Change '/index.php' to whatever page your using this function on)
+
+echo $guardianapi->guardian_world_data_store('/index.php', $_GET['q'], $_GET['facet_country'], $_GET['facet_department'], $_GET['facet_year'], $_GET['facet_format'], $_GET['page']);
 ?>
