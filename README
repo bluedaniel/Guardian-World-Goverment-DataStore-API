@@ -1,0 +1,13 @@
+This PHP class is an 'all-in-one' function that will replicate the dataset search that appears at:
+
+http://www.guardian.co.uk/world-government-data
+
+All you need to do to invoke it is the following php lines:
+
+<?php 
+include('includes/worlddatastore.class.php')l
+
+$guardianapi = new worldDataStore;
+
+echo $guardianapi->guardian_world_data_store('/jsontest.php', $_GET['q'], $_GET['facet_country'], $_GET['facet_department'], $_GET['facet_year'], $_GET['facet_format'], $_GET['page']);
+?>
